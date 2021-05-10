@@ -1,0 +1,32 @@
+.section-footer {
+    background-color: $color-neutral-very-light-gray;
+    padding: 5rem 0;
+    position: relative;
+    .footer {
+        &__top {
+            position: relative;
+            height: 8rem;
+            border-bottom: 1px solid $color-neutral-dark-grayish-violet;
+        }
+
+        &__bottom {
+            margin-top: 4rem;
+        }
+        
+        &__logo-box {
+            @include centerVertical;
+        }
+
+        &__bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+
+    & .social {
+        @include centerVertical;
+        right: 0;
+    }
+
+}

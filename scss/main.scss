@@ -1,0 +1,23 @@
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './abstracts/functions';
+
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+@import './base/animations';
+  
+@import './layout/grid';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/footer';  
+
+@import './components/hero';
+@import './components/button';
+@import './components/trait';
+@import './components/learn-more';
+@import './components/social';
+@import './components/widget';
+
+
+@import './pages/home';   

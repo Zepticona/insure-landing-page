@@ -1,0 +1,27 @@
+.widget {
+    &__list {
+        list-style-type: none;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: .5rem;
+        }
+    }
+
+    &__link {
+        color: $default-font-color;      
+
+        &--header {
+            margin-bottom: 1.5rem;
+            color: $color-primary-dark-violet;
+        }
+
+        &:link, &:visited {
+            text-decoration: none;
+            display: inline-block;
+            font-size: $default-font-size;      
+            
+        }
+    }
+}

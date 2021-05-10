@@ -1,0 +1,15 @@
+.section-traits {
+    padding-top: 10rem;
+    .trait__heading {
+        color: $color-primary-dark-violet;
+
+        &::after {
+            background: $color-primary-dark-violet; 
+            width: 15%;
+        }
+    }
+}
+.section-learn-more {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}

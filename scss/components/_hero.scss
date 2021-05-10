@@ -1,0 +1,24 @@
+.hero {
+    background-color: $color-neutral-very-dark-violet;
+    color: white;
+    background-image: url(../../img/bg-pattern-intro-left-desktop.svg), url(../../img/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0 50%, 100% 0;
+    margin-bottom: 10rem;
+
+    &__content {
+        margin-top: $hero-top-offset;
+    }
+
+    &__heading {
+        font-family:serif;
+        
+    }
+
+    &__img {
+        display: block;
+        position: relative;
+        top: $hero-top-offset;
+    }
+
+}

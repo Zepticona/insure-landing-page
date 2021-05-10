@@ -1,0 +1,15 @@
+.single-trait{
+    // &__img {
+
+    // }
+
+    &__heading {
+        font-size: 3rem;
+        color: $color-primary-dark-violet;
+        font-family: serif;
+    }
+
+    &__paragraph {
+        font-size: $default-font-size;
+    }
+}

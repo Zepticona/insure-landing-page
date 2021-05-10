@@ -1,0 +1,19 @@
+.header {
+
+    & .row {
+        position: relative; 
+        height: 8rem;
+    }
+    &__logo-box {
+        float: left;
+        left: 0;
+        @include centerVertical;
+    }
+
+    &__navigation {
+        float: right;
+        right: 0;
+        @include centerVertical;
+    }
+
+}

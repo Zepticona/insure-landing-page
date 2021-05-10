@@ -1,0 +1,21 @@
+.social {
+    &__list {
+        list-style-type: none;
+    }
+
+    &__item {
+        display: inline-block;
+    }
+
+    &__link {
+        &:link, &:visited {
+            display: inline-block;
+            margin: 2rem;
+            transition: all .2s ease;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
